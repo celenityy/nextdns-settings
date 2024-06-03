@@ -53,7 +53,7 @@ I would generally recommend using the following lists:
 * ⭐️ hBlock
 * ⭐️ hostsVN
 * ⭐️ Lightswitch05 - Ads & Tracking
-* ⭐️ NextDNS Ads & Trackers Blocklist (Enabled by default)
+* ⭐️ NextDNS Ads & Trackers Blocklist *(Enabled by default)*
 * ⭐️ NSABlocklist
 * ⭐️ OISD
 * ⭐️ Personal Blocklist by WaLLy3K
@@ -66,11 +66,11 @@ It might seem like a lot, but these are high quality lists with strong coverage,
 Additionally, if you're fine with a little breakage, I would highly recommend:
 
 * 1Hosts **(Pro)**
-* HaGeZi - Multi **ULTIMATE** instead of HaGeZi Multi **Pro++**
+* HaGeZi - Multi **Ultimate** instead of HaGeZi Multi **Pro++**
 * Lightswitch05 - Tracking **Aggressive** instead of Lightswitch05 - **Ads & Tracking**
 * No Facebook - Obviously don't use if you use any Facebook services
 
-**Native Tracking Protection** -> ✅
+**Native Tracking Protection** ->
 
 You should generally just enable whatever devices you have in here. 
 
