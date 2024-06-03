@@ -42,43 +42,43 @@ Despite popular opinion, due to the reasons WaLLy3K has listed [here](https://gi
 
 I would generally recommend using the following lists:
 
-* AdAway
-* AdGuard DNS filter
-* Anudeep's Blacklist for ads and trackers
-* CAMELEON
-* EasyList 
-* EasyPrivacy
-* Fanboy's Annoyance List
-* HaGeZi Multi Pro++
-* hBlock
-* hostsVN
-* Lightswitch05 - Ads & Tracking
-* NextDNS Ads & Trackers Blocklist (Enabled by default)
-* NSABlocklist
-* OISD
-* Personal Blocklist by WaLLy3K
-* Peter Lowe
-* someonewhocares.org (Dan Pollock)
-* Steven Black
+* ⭐️ AdAway
+* ⭐️ AdGuard DNS filter
+* ⭐️ Anudeep's Blacklist for ads and trackers
+* ⭐️ CAMELEON
+* ⭐️ EasyList 
+* ⭐️ EasyPrivacy
+* ⭐️ Fanboy's Annoyance List
+* ⭐️ HaGeZi Multi Pro++
+* ⭐️ hBlock
+* ⭐️ hostsVN
+* ⭐️ Lightswitch05 - Ads & Tracking
+* ⭐️ NextDNS Ads & Trackers Blocklist (Enabled by default)
+* ⭐️ NSABlocklist
+* ⭐️ OISD
+* ⭐️ Personal Blocklist by WaLLy3K
+* ⭐️ Peter Lowe
+* ⭐️ someonewhocares.org (Dan Pollock)
+* ⭐️ Steven Black
 
-It might seem like a lot, but these are high quality lists with strong coverage, and it doesn't hurt using multiple.
+It might seem like a lot, but these are high quality lists with strong coverage, and it doesn't really hurt to use multiple like this.
 
 Additionally, if you're fine with a little breakage, I would highly recommend:
 
-* 1Hosts (Pro)
-* HaGeZi - Multi ULTIMATE instead of HaGeZi Multi Pro++
-* Lightswitch05 - Tracking Aggressive instead of Lightswitch05 - Ads & Tracking
+* 1Hosts **(Pro)**
+* HaGeZi - Multi **ULTIMATE** instead of HaGeZi Multi **Pro++**
+* Lightswitch05 - Tracking **Aggressive** instead of Lightswitch05 - **Ads & Tracking**
 * No Facebook - Obviously don't use if you use any Facebook services
 
 **Native Tracking Protection** -> ✅
 
 You should generally just enable whatever devices you have in here. 
 
-Regardless though, I would always recommend enabling "Amazon Alexa", as it seems to block various Amazon trackers found in their other apps/services, even if you don't have an Alexa.
+Regardless though, I would always recommend enabling `Amazon Alexa`, as it seems to block various Amazon trackers found in their other apps/services, even if you don't have an Alexa.
 
 **Block Disguised Third-Party Trackers** -> ✅
 
-**Allow Affiliate & Tracking Links** -> ✅ (See "Denylist" section below)
+**Allow Affiliate & Tracking Links** -> ✅ (See `Denylist` section below)
 
 # Parental Control
 
