@@ -30,7 +30,7 @@ My recommendations for the ultimate NextDNS Set-up :)
 
 I would recommend taking a look at blocking TLDs from HaGeZi's "Most Abused TLDs" list [here](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/spam-tlds.txt). Block whatever works best for you, but this can do a lot to increase security.
 
-**Block Child Sexual Abuse Material** -> ✅ (Apologies to the pedos in the audience...)
+**Block Child Sexual Abuse Material** -> ✅ *(Apologies to the pedos in the audience...)*
 
 # Privacy
 
@@ -107,8 +107,8 @@ Regardless, if you use Apple devices, I would recommend blocking the following t
 
 * `cdn-xp-ingest.edge.apple` # Similar to xp.apple.com (See below), except Apple officially admits this is used for "Reporting"
 * `cdn-xp-ingest-ab.v.aaplimg.com` # Similar to xp.apple.com (See below), except Apple officially admits this is used for "Reporting"
-* `cdn-xp-ingest.apple.com` # Related to xp-cdn.apple.com
-* `cdn-xp-ingest-ab.apple.com` # Related to xp-cdn.apple.com
+* `cdn-xp-ingest.apple.com` # Related to xp-cdn.apple.com (See below)
+* `cdn-xp-ingest-ab.apple.com` # Related to xp-cdn.apple.com (See below)
 * `idiagnostics.apple.com` # Sends diagnostic data to Apple
 * `idiagnostics.apple.com.akadns.net` # Sends diagnostic data to Apple
 * `pancake.apple.com` # Seems to be used for "home sharing" & telemetry
