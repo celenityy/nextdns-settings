@@ -82,7 +82,7 @@ Regardless though, I would always recommend enabling "Amazon Alexa", as it seems
 
 # Parental Control
 
-**Websites, Apps & Games** -> You should add in here any services you don't use or care about. For instance, I usually block TikTok, Facebook, Instagram, Messenger, & WhatsApp, as I don't use or care about any Facebook or TikTok services, and I don't want to connect to or be tracked by them.
+**Websites, Apps & Games** -> You should add in here any services you don't use or care about. For instance, I usually block `TikTok`, `Facebook`, `Instagram`, `Messenger`, & `WhatsApp`, as I don't use or care about any Facebook or TikTok services, and I don't want to connect to or be tracked by them.
 
 # Denylist
 
@@ -90,24 +90,76 @@ Remember how we allowed affiliate & tracking links above?
 
 While this is nice from a usability perspective, this does also allow some questionable ad/tracking domains that we don't want unblocked. I would recommend taking a look at [the allowlist NextDNS is using](https://github.com/nextdns/click-tracking-domains/blob/main/domains) and I would definitely add the following to your denylist:
 
-* ad.doubleclick.net
-* adclick.g.doubleclick.net
+* `ad.doubleclick.net`
+* `adclick.g.doubleclick.net`
 * The google adservice domain from the list corresponding to your region/that you run into
-* adservice.google.com
-* amazon-adsystem.com
-* analytics.twitter.com
-* app.adjust.com
-* dart.l.doubleclick.net
-* pagead.l.doubleclick.net
-* www.googleadservices.com
+* `adservice.google.com`
+* `amazon-adsystem.com`
+* `analytics.twitter.com`
+* `app.adjust.com`
+* `dart.l.doubleclick.net`
+* `pagead.l.doubleclick.net`
+* `www.googleadservices.com`
 
 Note that I maintain a variety of comprehensive blocklists [here](https://codeberg.org/Magnesium1062/blocklists/). Sadly you won't be able to add them to NextDNS, but you may skim through them and manually block whatever you wish to.
 
-Regardless, if you use Apple devices, I would recommend blocking:
+Regardless, if you use Apple devices, I would recommend blocking the following that aren't included on most lists for a nice bang for your buck:
 
-* idiagnostics.apple.com
-* pancake.apple.com
-* xp.apple.com 
-* xp-cdn.apple.com
+* `cdn-xp-ingest.edge.apple` # Similar to xp.apple.com (See below), except Apple officially admits this is used for "Reporting"
+* `cdn-xp-ingest-ab.v.aaplimg.com` # Similar to xp.apple.com (See below), except Apple officially admits this is used for "Reporting"
+* `cdn-xp-ingest.apple.com` # Related to xp-cdn.apple.com
+* `cdn-xp-ingest-ab.apple.com` # Related to xp-cdn.apple.com
+* `idiagnostics.apple.com` # Sends diagnostic data to Apple
+* `idiagnostics.apple.com.akadns.net` # Sends diagnostic data to Apple
+* `pancake.apple.com` # Seems to be used for "home sharing" & telemetry
+* `pancake.apple.com.edgekey.net` # Seems to be used for "home sharing" & telemetry
+* `pancake.cdn-apple.com.akadns.net` # Seems to be used for "home sharing" & telemetry
+* `pancake.g.aaplimg.com` # Seems to be used for "home sharing" & telemetry
+* `xp.apple.com` # General telemetry for various Apple apps & services: https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558. It has also been used for updates, but updates seem to still work without issue with this blocked.
+* `xp.apple.com.edgekey.net` # General telemetry for various Apple apps & services: https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558. It has also been used for updates, but updates seem to still work without issue with this blocked
+* `xp.itunes-apple.com.akadns.net` # General telemetry for various Apple apps & services: https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558. It has also been used for updates, but updates seem to still work without issue with this blocked
+* `xp-cdn.apple.com` # Similar to xp.apple.com, except Apple officially admits this is used for "Reporting".
 
 # Allowlist
+
+Note that I maintain a comprehensive whitelist [here](https://codeberg.org/Magnesium1062/blocklists/src/branch/main/whitelist.txt). Sadly you won't be able to add it to NextDNS, but you may skim through it and manually allow whatever you wish to.
+
+Regardless, I would recommend allowing the following if you need them for a bang for your buck:
+
+* `mirror.arizona.edu` # Mirror used by Fedora Linux for updates, blocked by NSABlocklist
+* `s.pinimg.com` # Being blocked breaks Pinterest, blocked by Lightswitch05 - Tracking Aggressive
+* `translate.google.com` # Google Translate, blocked by Lightswitch05 - Tracking Aggressive
+
+# Settings
+
+**Enable Logs** -> ✅ (Having logs on is important for troubleshooting breakage)
+
+**Log clients IPs** -> ❌
+
+**Log domains** -> ✅
+
+**Retention** -> 1 hour (This will allow us to easily troubleshoot breakage, without keeping data for longer than necessary)
+
+**Storage location** -> Switzerland
+
+**Enable Block Page** -> ❌ (Please **NEVER** enable this. This causes lots of issues and weird breakage, and also heavily reduces security through compromising HTTPS)
+
+**Enable Anonymized EDNS Client Subnet** -> ❌ 
+
+**Enable Cache Boost** -> ✅
+
+**Enable CNAME Flattening** -> ✅
+
+**Enable Web3** -> ❌ if you don't use/need it
+
+# Additional recommendations
+
+* Use a privacy-respecting browser like [Firefox](https://www.mozilla.org/firefox/)
+
+* Make sure to configure NextDNS on **both** your OS and in your browser. This will allow you to take advantage of [Encrypted Client Hello](https://blog.cloudflare.com/announcing-encrypted-client-hello).
+
+* Use a content blocking extension like [uBlock Origin](https://github.com/gorhill/uBlock)
+
+* Enable Safe Browsing in your browser if possible and if it's not done in a privacy-invasive way. (You should use i.e. [Google Safe Browsing on "Standard" Mode](https://safebrowsing.google.com/), [Firefox's Safe Browsing](https://support.mozilla.org/kb/how-does-phishing-and-malware-protection-work), [Brave's Safe Browsing](https://brave.com/privacy/browser/#safe-browsing), & [Safari's Fraudulent Website Warning](https://www.apple.com/legal/privacy/data/en/safari/), you should avoid most other options i.e. [Google Safe Browsing on "Enhanced" Mode](https://safebrowsing.google.com/), [Microsoft SmartScreen](https://learn.microsoft.com/windows/security/operating-system-security/virus-and-threat-protection/microsoft-defender-smartscreen/), & [Opera Sitecheck](https://blogs.opera.com/security/2021/01/making-browsing-safe-from-phishing/))
+
+* Use a (reputable) anti-virus if possible. On Windows, you can use the built-in [Microsoft Defender Antivirus](https://en.wikipedia.org/wiki/Microsoft_Defender_Antivirus), on macOS, you can stick to the built-in [XProtect](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/web), on Android, you can use [Hypatia](https://f-droid.org/packages/us.spotco.malwarescanner/), and on Linux, you can use [ClamAV](https://www.clamav.net/). NOTE: You should install Hypatia through the [DivestOS Official Repo](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) instead of F-Droid's main repo, as it will allow you to receive quicker updates directly from the developer. It's also recommended to use [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic/) as your F-Droid client of choice.
