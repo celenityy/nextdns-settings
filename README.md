@@ -1,6 +1,6 @@
-# nextdns-setup
+# nextdns-settings
 
-My recommendations for the ultimate NextDNS Set-up :)
+My recommendations for the ultimate NextDNS Configuration :)
 
 # Security
 
