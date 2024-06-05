@@ -132,6 +132,8 @@ Regardless, I would recommend allowing the following if you need them for a bang
 * `s.pinimg.com` # Being blocked breaks Pinterest, blocked by Lightswitch05 - Tracking Aggressive
 * `translate.google.com` # Google Translate, blocked by Lightswitch05 - Tracking Aggressive
 
+You should also always allow `nextdns.io`, as this will ensure we can always access the dashboard, regardless of any rogue filters or unexpected events that could occur.
+
 # Settings
 
 **Enable Logs** -> ✅ (Having logs on is important for troubleshooting breakage)
