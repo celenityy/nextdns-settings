@@ -60,6 +60,7 @@ I would generally recommend using the following lists:
 * ⭐️ Peter Lowe
 * ⭐️ someonewhocares.org (Dan Pollock)
 * ⭐️ Steven Black
+* ⭐️ WindowsSpyBlocker (Spy) (If you don't use Windows or Microsoft products, then don't bother)
 
 It might seem like a lot, but these are high quality lists with strong coverage, and it doesn't really hurt to use multiple like this.
 
