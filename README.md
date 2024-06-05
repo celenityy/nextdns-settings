@@ -61,22 +61,22 @@ I would generally recommend using the following lists:
 * ⭐️ Peter Lowe
 * ⭐️ someonewhocares.org (Dan Pollock)
 * ⭐️ Steven Black
-* ⭐️ WindowsSpyBlocker (Spy) (If you don't use Windows or any Microsoft products, then don't bother)
+* ⭐️ WindowsSpyBlocker (Spy)
 
 It might seem like a lot, but these are high quality lists with strong coverage, and it doesn't really hurt to use multiple like this.
 
 Additionally, if you're fine with a little breakage, I would highly recommend:
 
 * 1Hosts **(Pro)**
-* HaGeZi - Multi **Ultimate** instead of HaGeZi Multi **Pro++**
-* Lightswitch05 - Tracking **Aggressive** instead of Lightswitch05 - **Ads & Tracking**
-* No Facebook - Obviously don't use if you use any Facebook services
+* HaGeZi - Multi **Ultimate** instead of HaGeZi Multi Pro++
+* Lightswitch05 - Tracking **Aggressive**
+* No Facebook - *Obviously don't use if you use any Facebook services*
 
 **Native Tracking Protection** ->
 
 You should generally just enable whatever devices you have in here. 
 
-Regardless though, I would always recommend enabling `Amazon Alexa`, as it seems to block various Amazon trackers found in their other apps/services, even if you don't have an Alexa.
+Regardless though, I would always recommend enabling `Amazon Alexa` and `Windows`, as they seem to block various Amazon & Microsoft trackers found in their other apps/services, even if you don't have an Alexa or use Windows.
 
 **Block Disguised Third-Party Trackers** -> ✅
 
