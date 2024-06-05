@@ -154,6 +154,10 @@ Regardless, I would recommend allowing the following if you need them for a bang
 
 **Enable Web3** -> ❌ if you don't use/need it
 
+# Account *(Select your email address in the top right corner)*
+
+**Two-Factor Authentication (2FA)** -> ✅
+
 # Additional recommendations
 
 * Use a privacy-respecting browser like [Firefox](https://www.mozilla.org/firefox/)
