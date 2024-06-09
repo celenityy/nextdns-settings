@@ -28,7 +28,7 @@ My recommendations for the ultimate NextDNS Configuration :)
 
 **Block Top-Level Domains (TLDs)** -> 
 
-I would recommend taking a look at blocking TLDs from HaGeZi's "Most Abused TLDs" list [here](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/spam-tlds.txt). Block whatever works best for you, but this can do a lot to increase security.
+I would recommend taking a look at blocking TLDs from HaGeZi's "Most Abused TLDs" list [here](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/spam-tlds.txt). Block whatever works best for you. This can be tedious, but does a lot to reduce risk of malicious websites. *(I've seen this work in real-time, blocking scam/spam domains before they were picked up by any lists)*.
 
 **Block Child Sexual Abuse Material** -> ✅ *(Apologies to the pedos in the audience...)*
 
@@ -82,7 +82,7 @@ I would generally recommend using the following:
 
 * ⭐️ `WindowsSpyBlocker (Spy)`
 
-It might seem like a lot, but these are high quality lists with strong coverage, and it doesn't really hurt to use them like this.
+It might seem like a lot, but these are high quality lists with strong coverage and minimal false positives in my experience, and it generally doesn't hurt to use them like this.
 
 Additionally, if you're fine with a little breakage, I would highly recommend:
 
@@ -90,7 +90,7 @@ Additionally, if you're fine with a little breakage, I would highly recommend:
 
 * `HaGeZi - Multi **Ultimate**` instead of `HaGeZi Multi Pro++`
 
-* `No Facebook` - *Obviously don't use if you use any Facebook services*
+* `No Facebook` - *(Obviously don't use if you use any Facebook services)*
 
 **Native Tracking Protection** ->
 
