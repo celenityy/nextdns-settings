@@ -69,7 +69,6 @@ Additionally, if you're fine with a little breakage, I would highly recommend:
 
 * 1Hosts **(Pro)**
 * HaGeZi - Multi **Ultimate** instead of HaGeZi Multi Pro++
-* Lightswitch05 - Tracking **Aggressive**
 * No Facebook - *Obviously don't use if you use any Facebook services*
 
 **Native Tracking Protection** ->
@@ -126,11 +125,9 @@ Regardless, if you use Apple devices, I would recommend blocking the following t
 
 Note that I maintain a comprehensive whitelist [here](https://codeberg.org/Magnesium1062/blocklists/src/branch/main/whitelist.txt). Sadly you won't be able to add it to NextDNS, but you may skim through it and manually allow whatever you wish to.
 
-Regardless, I would recommend allowing the following if you need them for a bang for your buck:
+Regardless, you should allow the following for updates on Fedora Linux:
 
-* `mirror.arizona.edu` # Mirror used by Fedora Linux for updates, blocked by NSABlocklist
-* `s.pinimg.com` # Being blocked breaks Pinterest, blocked by Lightswitch05 - Tracking Aggressive
-* `translate.google.com` # Google Translate, blocked by Lightswitch05 - Tracking Aggressive
+* `mirror.arizona.edu` # Blocked by NSABlocklist
 
 You should also always allow `nextdns.io`, as this will ensure we can always access the dashboard, regardless of any rogue filters or unexpected events that could occur.
 
