@@ -42,34 +42,34 @@ Despite popular opinion, due to the reasons WaLLy3K has listed [here](https://gi
 
 I would generally recommend using the following lists:
 
-* ⭐️ AdAway
-* ⭐️ AdGuard DNS filter
-* ⭐️ Anudeep's Blacklist for ads and trackers
-* ⭐️ CAMELEON
-* ⭐️ EasyList 
-* ⭐️ EasyPrivacy
-* ⭐️ Fanboy's Annoyance List
-* ⭐️ HaGeZi Multi Pro++
-* ⭐️ hBlock
-* ⭐️ hostsVN
-* ⭐️ Lightswitch05 - Ads & Tracking
-* ⭐️ NextDNS Ads & Trackers Blocklist *(Enabled by default)*
-* ⭐️ NSABlocklist
-* ⭐️ OISD
-* ⭐️ Perflyst's Smart-TV Blocklist
-* ⭐️ Personal Blocklist by WaLLy3K
-* ⭐️ Peter Lowe
-* ⭐️ someonewhocares.org (Dan Pollock)
-* ⭐️ Steven Black
-* ⭐️ WindowsSpyBlocker (Spy)
+* ⭐️ `AdAway`
+* ⭐️ `AdGuard DNS filter`
+* ⭐️ `Anudeep's Blacklist for ads and trackers`
+* ⭐️ `CAMELEON`
+* ⭐️ `EasyList`
+* ⭐️ `EasyPrivacy`
+* ⭐️ `Fanboy's Annoyance List`
+* ⭐️ `HaGeZi Multi Pro++`
+* ⭐️ `hBlock`
+* ⭐️ `hostsVN`
+* ⭐️ `Lightswitch05 - Ads & Tracking`
+* ⭐️ `NextDNS Ads & Trackers Blocklist` *(Enabled by default)*
+* ⭐️ `NSABlocklist`
+* ⭐️ `OISD`
+* ⭐️ `Perflyst's Smart-TV Blocklist`
+* ⭐️ `Personal Blocklist by WaLLy3K`
+* ⭐️ `Peter Lowe`
+* ⭐️ `someonewhocares.org (Dan Pollock)`
+* ⭐️ `Steven Black`
+* ⭐️ `WindowsSpyBlocker (Spy)`
 
 It might seem like a lot, but these are high quality lists with strong coverage, and it doesn't really hurt to use multiple like this.
 
 Additionally, if you're fine with a little breakage, I would highly recommend:
 
-* 1Hosts **(Pro)**
-* HaGeZi - Multi **Ultimate** instead of HaGeZi Multi Pro++
-* No Facebook - *Obviously don't use if you use any Facebook services*
+* `1Hosts **(Pro)**`
+* `HaGeZi - Multi **Ultimate**` instead of `HaGeZi Multi Pro++`
+* `No Facebook` - *Obviously don't use if you use any Facebook services*
 
 **Native Tracking Protection** ->
 
@@ -139,11 +139,11 @@ You should also always allow `nextdns.io`, as this will ensure we can always acc
 
 **Log domains** -> ✅
 
-**Retention** -> 1 hour (This will allow us to easily troubleshoot breakage, without keeping data for longer than necessary)
+**Retention** -> `1 hour` (This will allow us to easily troubleshoot breakage, without keeping data for longer than necessary)
 
-**Storage location** -> Switzerland
+**Storage location** -> `Switzerland`
 
-**Enable Block Page** -> ❌ (Please **NEVER** enable this. This causes lots of issues and weird breakage, and also heavily reduces security through compromising HTTPS)
+**Enable Block Page** -> ❌ (⚠️ Please **NEVER** enable this. This causes lots of issues and weird breakage, and also heavily reduces security through compromising HTTPS)
 
 **Enable Anonymized EDNS Client Subnet** -> ❌ 
 
@@ -151,7 +151,7 @@ You should also always allow `nextdns.io`, as this will ensure we can always acc
 
 **Enable CNAME Flattening** -> ✅
 
-**Enable Web3** -> ❌ if you don't use/need it
+**Enable Web3** -> ❌ *if you don't use/need it*
 
 # Account *(Select your email address in the top right corner)*
 
