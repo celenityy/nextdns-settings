@@ -20,7 +20,7 @@ My recommendations for the ultimate NextDNS Configuration :)
 
 **Enable DGA Protection** -> ✅
 
-**Block Newly Registered Domains (NRDs)** -> ✅ (This will cause very rare breakage, but massively improves security)
+**Block Newly Registered Domains (NRDs)** -> ✅ *(This will cause very rare breakage, but massively improves security)*
 
 **Block Dynamic DNS Hostnames** -> ✅
 
@@ -38,44 +38,67 @@ I would recommend taking a look at blocking TLDs from HaGeZi's "Most Abused TLDs
 
 Here's where it gets fun.
 
-Despite popular opinion, due to the reasons WaLLy3K has listed [here](https://github.com/WaLLy3K/wally3k.github.io?tab=readme-ov-file#why-use-this-over-other-sources), I think it's a good idea to use multiple lists and sources, rather than just limiting yourself to one or two giant lists. I myself constantly notice domains being blocked that were caught by only one list and missed by others. I'm not saying you should go overboard, but I do think it's a good idea to use a variety of high quality lists.
+Despite popular opinion, due to the reasons WaLLy3K has listed [here](https://github.com/WaLLy3K/wally3k.github.io?tab=readme-ov-file#why-use-this-over-other-sources), I think it's a good idea to use multiple lists and sources, rather than just limiting yourself to one or two giant lists. I myself constantly notice domains being blocked that were caught by only one or two lists and missed by others. **I'm not saying you should go overboard, but I do think it's a good idea to use a variety of high quality lists for the best coverage possible.**
 
-I would generally recommend using the following lists:
+I would generally recommend using the following:
 
 * ⭐️ `AdAway`
+
 * ⭐️ `AdGuard DNS filter`
+
 * ⭐️ `Anudeep's Blacklist for ads and trackers`
+
 * ⭐️ `CAMELEON`
+
 * ⭐️ `EasyList`
+
 * ⭐️ `EasyPrivacy`
+
 * ⭐️ `Fanboy's Annoyance List`
+
 * ⭐️ `HaGeZi Multi Pro++`
+
 * ⭐️ `hBlock`
+
 * ⭐️ `hostsVN`
+
 * ⭐️ `Lightswitch05 - Ads & Tracking`
+
 * ⭐️ `NextDNS Ads & Trackers Blocklist` *(Enabled by default)*
+
 * ⭐️ `NSABlocklist`
+
 * ⭐️ `OISD`
+
 * ⭐️ `Perflyst's Smart-TV Blocklist`
+
 * ⭐️ `Personal Blocklist by WaLLy3K`
+
 * ⭐️ `Peter Lowe`
+
 * ⭐️ `someonewhocares.org (Dan Pollock)`
+
 * ⭐️ `Steven Black`
+
 * ⭐️ `WindowsSpyBlocker (Spy)`
 
-It might seem like a lot, but these are high quality lists with strong coverage, and it doesn't really hurt to use multiple like this.
+It might seem like a lot, but these are high quality lists with strong coverage, and it doesn't really hurt to use them like this.
 
 Additionally, if you're fine with a little breakage, I would highly recommend:
 
 * `1Hosts **(Pro)**`
+
 * `HaGeZi - Multi **Ultimate**` instead of `HaGeZi Multi Pro++`
+
 * `No Facebook` - *Obviously don't use if you use any Facebook services*
 
 **Native Tracking Protection** ->
 
-You should generally just enable whatever devices you have in here. 
+I would recommend enabling the following in addition to any devices you have that are listed:
 
-Regardless though, I would always recommend enabling `Amazon Alexa` and `Windows`, as they seem to block various Amazon & Microsoft trackers found in their other apps/services, even if you don't have an Alexa or use Windows.
+* ⭐️ `Windows` *(Blocks Microsoft trackers, not exclusive to Windows)*
+
+* ⭐️ `Amazon Alexa` *(Blocks Amazon trackers, not exclusive to Alexa)*
 
 **Block Disguised Third-Party Trackers** -> ✅
 
@@ -83,7 +106,23 @@ Regardless though, I would always recommend enabling `Amazon Alexa` and `Windows
 
 # Parental Control
 
-**Websites, Apps & Games** -> You should add in here any services you don't use or care about. For instance, I usually block `TikTok`, `Facebook`, `Instagram`, `Messenger`, & `WhatsApp`, as I don't use or care about any Facebook or TikTok services, and I don't want to connect to or be tracked by them.
+**Websites, Apps & Games** -> You should use this feature to your advantage and block any services that you don't use or care about. This can dramatically improve your privacy by preventing connections to them from even being made. If you use a service, don't block it, just block what you're comfortable with and works best for you.
+
+I usually block the following:
+
+* `TikTok`
+
+* `Facebook`
+
+* `Instagram`
+
+* `VK`
+
+* `Messenger`
+
+* `WhatsApp`
+
+* `Spotify`
 
 # Denylist
 
@@ -133,17 +172,17 @@ You should also always allow `nextdns.io`, as this will ensure we can always acc
 
 # Settings
 
-**Enable Logs** -> ✅ (Having logs on is important for troubleshooting breakage)
+**Enable Logs** -> ✅ *(Having logs on is important for troubleshooting breakage)*
 
 **Log clients IPs** -> ❌
 
 **Log domains** -> ✅
 
-**Retention** -> `1 hour` (This will allow us to easily troubleshoot breakage, without keeping data for longer than necessary)
+**Retention** -> `1 hour` *(This will allow us to easily troubleshoot breakage, without keeping data for longer than necessary)*
 
 **Storage location** -> `Switzerland`
 
-**Enable Block Page** -> ❌ (⚠️ Please **NEVER** enable this. This causes lots of issues and weird breakage, and also heavily reduces security through compromising HTTPS)
+**Enable Block Page** -> ❌ *(⚠️ Please **NEVER** enable this. This causes lots of issues and weird breakage, and also heavily reduces security through compromising HTTPS)*
 
 **Enable Anonymized EDNS Client Subnet** -> ❌ 
 
