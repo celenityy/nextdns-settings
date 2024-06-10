@@ -112,6 +112,8 @@ I usually block the following:
 
 * `TikTok`
 
+* `Snapchat`
+
 * `Facebook`
 
 * `Instagram`
