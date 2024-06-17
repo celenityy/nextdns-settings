@@ -145,28 +145,11 @@ While this is nice from a usability perspective, this does also allow some quest
 * `pagead.l.doubleclick.net`
 * `www.googleadservices.com`
 
-Note that I maintain a variety of comprehensive blocklists [here](https://codeberg.org/Magnesium1062/blocklists/). Sadly you won't be able to add them to NextDNS, but you may skim through them and manually block whatever you wish to.
-
-Regardless, if you use Apple devices, I would recommend blocking the following that aren't included on most lists for a nice bang for your buck:
-
-* `cdn-xp-ingest.edge.apple` # Similar to xp.apple.com (See below), except Apple officially admits this is used for "Reporting"
-* `cdn-xp-ingest-ab.v.aaplimg.com` # Similar to xp.apple.com (See below), except Apple officially admits this is used for "Reporting"
-* `cdn-xp-ingest.apple.com` # Related to xp-cdn.apple.com (See below)
-* `cdn-xp-ingest-ab.apple.com` # Related to xp-cdn.apple.com (See below)
-* `idiagnostics.apple.com` # Sends diagnostic data to Apple
-* `idiagnostics.apple.com.akadns.net` # Sends diagnostic data to Apple
-* `pancake.apple.com` # Seems to be used for "home sharing" & telemetry
-* `pancake.apple.com.edgekey.net` # Seems to be used for "home sharing" & telemetry
-* `pancake.cdn-apple.com.akadns.net` # Seems to be used for "home sharing" & telemetry
-* `pancake.g.aaplimg.com` # Seems to be used for "home sharing" & telemetry
-* `xp.apple.com` # General telemetry for various Apple apps & services: https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558. It has also been used for updates, but updates seem to still work without issue with this blocked.
-* `xp.apple.com.edgekey.net` # General telemetry for various Apple apps & services: https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558. It has also been used for updates, but updates seem to still work without issue with this blocked
-* `xp.itunes-apple.com.akadns.net` # General telemetry for various Apple apps & services: https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558. It has also been used for updates, but updates seem to still work without issue with this blocked
-* `xp-cdn.apple.com` # Similar to xp.apple.com, except Apple officially admits this is used for "Reporting".
+Note that I maintain a variety of comprehensive blocklists [here](https://codeberg.org/Magnesium1062/BadBlock). Sadly you won't be able to add them to NextDNS, but you may skim through them and manually block whatever you wish to.
 
 # Allowlist
 
-Note that I maintain a comprehensive whitelist [here](https://codeberg.org/Magnesium1062/blocklists/src/branch/main/whitelist.txt). Sadly you won't be able to add it to NextDNS, but you may skim through it and manually allow whatever you wish to.
+Note that I maintain a comprehensive whitelist [here](https://codeberg.org/Magnesium1062/BadBlock/raw/branch/main/whitelist.txt). Sadly you won't be able to add it to NextDNS, but you may skim through it and manually allow whatever you wish to.
 
 Regardless, you should allow the following for updates on Fedora Linux:
 
@@ -206,7 +189,7 @@ You should also always allow `nextdns.io`, as this will ensure we can always acc
 
 * Make sure to configure NextDNS on **both** your OS and in your browser. This will allow you to take advantage of [Encrypted Client Hello](https://blog.cloudflare.com/announcing-encrypted-client-hello).
 
-* Use a content blocking extension like [uBlock Origin](https://github.com/gorhill/uBlock).
+* Use a content blocking extension like [uBlock Origin](https://github.com/gorhill/uBlock). *(See recommended settings [here](https://codeberg.org/Magnesium1062/ublock-origin-settings))*
 
 * Enable Safe Browsing in your browser if possible and if it's not done in a privacy-invasive way. (You should use i.e. [Google Safe Browsing on "Standard" Mode](https://safebrowsing.google.com/), [Firefox's Safe Browsing](https://support.mozilla.org/kb/how-does-phishing-and-malware-protection-work), [Brave's Safe Browsing](https://brave.com/privacy/browser/#safe-browsing), & [Safari's Fraudulent Website Warning](https://www.apple.com/legal/privacy/data/en/safari/), you should avoid most other options i.e. [Google Safe Browsing on "Enhanced" Mode](https://safebrowsing.google.com/), [Microsoft SmartScreen](https://learn.microsoft.com/windows/security/operating-system-security/virus-and-threat-protection/microsoft-defender-smartscreen/), & [Opera Sitecheck](https://blogs.opera.com/security/2021/01/making-browsing-safe-from-phishing/)).
 
