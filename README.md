@@ -30,7 +30,7 @@ My recommendations for the ultimate NextDNS Configuration :)
 
 **Block Top-Level Domains (TLDs)** -> 
 
-I would recommend taking a look at blocking TLDs from HaGeZi's "Most Abused TLDs" list [here](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/spam-tlds.txt). Block whatever works best for you. This can be tedious, but does a lot to reduce risk of malicious websites. *(I've seen this work in real-time, blocking scam/spam domains before they were picked up by any lists)*.
+I would recommend taking a look at blocking TLDs from HaGeZi's "Most Abused TLDs" list [here](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/spam-tlds.txt). Block whatever works best for you. This can be tedious, but does a lot to heavily reduce risk of malicious websites. *(I've seen this work in real-time, blocking scam/spam domains before they were picked up by any lists)*.
 
 **Block Child Sexual Abuse Material** -> ✅ *(Apologies to the pedos in the audience...)*
 
@@ -90,17 +90,21 @@ Additionally, if you're fine with a little breakage, I would highly recommend:
 
 * `1Hosts **(Pro)**`
 
-* `HaGeZi - Multi **Ultimate**` instead of `HaGeZi Multi Pro++`
+* `HaGeZi - Multi `**Ultimate** instead of `HaGeZi Multi `**Pro++**
 
 * `No Facebook` - *(Obviously don't use if you use any Facebook services)*
 
+<br>
+
 **Native Tracking Protection** ->
 
-I would recommend enabling the following in addition to any devices you have that are listed:
+I would recommend enabling the following **in addition** to any devices you have that are listed:
 
 * ⭐️ `Windows` *(Blocks Microsoft trackers, not exclusive to Windows)*
 
 * ⭐️ `Amazon Alexa` *(Blocks Amazon trackers, not exclusive to Alexa)*
+
+<br>
 
 **Block Disguised Third-Party Trackers** -> ✅
 
