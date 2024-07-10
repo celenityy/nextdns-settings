@@ -10,7 +10,7 @@ My recommendations for the ultimate NextDNS Configuration :)
 
 **Enable AI-Driven Threat Detection** -> ✅
 
-**Enable Google Safe Browsing** -> ✅
+**Enable Google Safe Browsing** -> ✅ **Even with this setting, you should still ENABLE Safe Browsing in your browser. This list is limited exclusively to domains, while browser Safe Browsing can also check downloaded files.**
 
 **Enable Cryptojacking Protection** -> ✅
 
@@ -189,7 +189,7 @@ You should also always allow `nextdns.io`, as this will ensure we can always acc
 
 # Additional recommendations
 
-* Use a privacy-respecting browser like [Firefox](https://www.mozilla.org/firefox/).
+* Use a privacy-respecting browser like [Firefox](https://www.mozilla.org/firefox/) with a user.js like [Arkenfox](https://github.com/arkenfox/user.js).
 
 * Make sure to configure NextDNS on **both** your OS and in your browser. This will allow you to take advantage of [Encrypted Client Hello](https://blog.cloudflare.com/announcing-encrypted-client-hello).
 
