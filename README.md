@@ -88,11 +88,11 @@ It might seem like a lot, but these are high quality lists with strong coverage 
 
 Additionally, if you're fine with a little breakage, I would highly recommend:
 
-* `1Hosts **(Pro)**`
+* ❓ `1Hosts `**(Pro)** 
 
-* `HaGeZi - Multi `**Ultimate** instead of `HaGeZi Multi `**Pro++**
+* ❓ `HaGeZi - Multi `**Ultimate** instead of `HaGeZi Multi `**Pro++**
 
-* `No Facebook` - *(Obviously don't use if you use any Facebook services)*
+* ❓ `No Facebook` - *(Obviously don't use if you use any Facebook services)*
 
 <br>
 
