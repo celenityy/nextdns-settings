@@ -204,18 +204,31 @@ In this box, you'll want to copy & paste the following:
 This is a comprehensive list of domains compiled from various sources, as well as my own research & analysis:
 
 https://codeberg.org/divested/dnsrm/raw/branch/master/Cellular.txt
+
 https://codeberg.org/divested/dnsrm/raw/branch/master/Infra-Carriers.txt
+
 https://codeberg.org/divested/dnsrm/raw/branch/master/Infra-Carriers2.txt
+
 https://github.com/GrapheneOS/adevtool/tree/14/vendor-skels/google_devices/akita/proprietary/product/etc/CarrierSettings
+
 https://github.com/LineageOS/android_vendor_lineage/blob/lineage-19.1/prebuilt/common/etc/apns-conf.xml
+
 https://www.t-mobile.com/support/coverage/wi-fi-calling-on-a-corporate-network
+
 https://www.reddit.com/r/firewalla/comments/167mhz7/tmobile_wifi_calling_issue/k010v02/
+
 https://www.reddit.com/r/nextdns/comments/yrqdlh/visual_voicemail_ee/
+
 https://www.reddit.com/r/nextdns/comments/jgf48w/ios_visual_voicemail/
+
 https://help.nextdns.io/t/35hf2pl/ios-visual-voicemail-malfunction
+
 https://support.adamnet.works/t/wifi-calling-with-adam-go/697
+
 https://www.arubanetworks.com/techdocs/ArubaOS_87_Web_Help/Content/arubaos-solutions/voice-video/ucc-wifi-call.htm
+
 https://www.reddit.com/r/nextdns/comments/mpe16n/blocked_mms_or_long_texts_on_cricket_att/
+
 https://www.reddit.com/r/nextdns/comments/11oreis/allowing_captive_portals_public_wifi_on_apple/
 
 The following domains **will** bypass your NextDNS config. However, the domains provided are not used for tracking or malicious, so there is little privacy to security downside. **This is the same as how Android handles it.**
