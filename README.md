@@ -2,7 +2,7 @@
 
 My recommendations for the ultimate NextDNS Configuration :)
 
-**NOTE:** This project can be found on both [Codeberg](https://codeberg.org/Magnesium1062/nextdns-settings), which will act as the main & preferred way to contribute, and [GitHub](https://github.com/Retold3202/nextdns-settings).
+**NOTE:** This project can be found on both [Codeberg](https://codeberg.org/celenity/nextdns-settings), which will act as the main & preferred way to contribute, and [GitHub](https://github.com/Retold3202/nextdns-settings).
 
 # Security
 
@@ -149,11 +149,11 @@ While this is nice from a usability perspective, this does also allow some quest
 * `pagead.l.doubleclick.net`
 * `www.googleadservices.com`
 
-Note that I maintain a variety of comprehensive blocklists [here](https://codeberg.org/Magnesium1062/BadBlock). Sadly you won't be able to add them to NextDNS, but you may skim through them and manually block whatever you wish to.
+Note that I maintain a variety of comprehensive blocklists [here](https://codeberg.org/celenity/BadBlock). Sadly you won't be able to add them to NextDNS, but you may skim through them and manually block whatever you wish to.
 
 # Allowlist
 
-Note that I maintain a comprehensive whitelist [here](https://codeberg.org/Magnesium1062/BadBlock/raw/branch/main/whitelist.txt). Sadly you won't be able to add it to NextDNS, but you may skim through it and manually allow whatever you wish to.
+Note that I maintain a comprehensive whitelist [here](https://codeberg.org/celenity/BadBlock/raw/branch/main/whitelist.txt). Sadly you won't be able to add it to NextDNS, but you may skim through it and manually allow whatever you wish to.
 
 Regardless, you should allow the following for updates on Fedora Linux:
 
@@ -187,14 +187,20 @@ You should also always allow `nextdns.io`, as this will ensure we can always acc
 
 **Two-Factor Authentication (2FA)** -> ✅
 
+# Connectivity Issues for Apple Devices
+
+Due to quirks with how iOS & macOS handle Encrypted DNS profiles, out of the box, you may experience issues with Captive Portals, Connecting to Public Wi-Fi Networks (Including ones on airplanes), MMS, Visual Voicemail, & Wi-Fi Calling. This happens with any Encrypted DNS provider, so it is not limited to NextDNS. The NextDNS app itself is *probably* not impacted by this - though using the app isn't recommended, as it is not needed, increases your attack surface, & rarely updated.
+
+
+
 # Additional recommendations
 
 * Use a privacy-respecting browser like [Firefox](https://www.mozilla.org/firefox/) with a user.js like [Arkenfox](https://github.com/arkenfox/user.js).
 
 * Make sure to configure NextDNS on **both** your OS and in your browser. This will allow you to take advantage of [Encrypted Client Hello](https://blog.cloudflare.com/announcing-encrypted-client-hello).
 
-* Use a content blocking extension like [uBlock Origin](https://github.com/gorhill/uBlock). *(See recommended settings [here](https://codeberg.org/Magnesium1062/ublock-origin-settings))*
+* Use a content blocking extension like [uBlock Origin](https://github.com/gorhill/uBlock). *(See recommended settings [here](https://codeberg.org/celenity/ublock-origin-settings))*
 
 * Enable Safe Browsing in your browser if possible and if it's not done in a privacy-invasive way. (You should use i.e. [Google Safe Browsing on "Standard" Mode](https://safebrowsing.google.com/), [Firefox's Safe Browsing](https://support.mozilla.org/kb/how-does-phishing-and-malware-protection-work), [Brave's Safe Browsing](https://brave.com/privacy/browser/#safe-browsing), & [Safari's Fraudulent Website Warning](https://www.apple.com/legal/privacy/data/en/safari/), you should avoid most other options i.e. [Google Safe Browsing on "Enhanced" Mode](https://safebrowsing.google.com/), [Microsoft SmartScreen](https://learn.microsoft.com/windows/security/operating-system-security/virus-and-threat-protection/microsoft-defender-smartscreen/), & [Opera Sitecheck](https://blogs.opera.com/security/2021/01/making-browsing-safe-from-phishing/)).
 
-* Use a (reputable) anti-virus if possible. On Windows, you can use the built-in [Microsoft Defender Antivirus](https://en.wikipedia.org/wiki/Microsoft_Defender_Antivirus), on macOS, you can stick to the built-in [XProtect](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/web), on Android, you can use [Hypatia](https://f-droid.org/packages/us.spotco.malwarescanner/), and on Linux, you can use [ClamAV](https://www.clamav.net/). **NOTE:** You should install Hypatia through the [DivestOS Official Repo](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) instead of F-Droid's main repo, as it will allow you to receive quicker updates directly from the developer. It's also recommended to use [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic/) as your F-Droid client of choice.
+* Use a (reputable) anti-virus if possible. On Windows, you can use the built-in [Microsoft Defender Antivirus](https://wikipedia.org/wiki/Microsoft_Defender_Antivirus), on macOS, you can stick to the built-in [XProtect](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/web), on Android, you can use [Hypatia](https://f-droid.org/packages/us.spotco.malwarescanner/), and on Linux, you can use [ClamAV](https://www.clamav.net/). **NOTE:** You should install Hypatia through the [DivestOS Official Repo](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) instead of F-Droid's main repo, as it will allow you to receive quicker updates directly from the developer. It's also recommended to use [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic/) as your F-Droid client of choice.
