@@ -187,12 +187,6 @@ You should also always allow `nextdns.io`, as this will ensure we can always acc
 
 **Two-Factor Authentication (2FA)** -> ✅
 
-# Connectivity Issues for Apple Devices
-
-Due to quirks with how iOS & macOS handle Encrypted DNS profiles, out of the box, you may experience issues with Captive Portals, Connecting to Public Wi-Fi Networks (Including ones on airplanes), MMS, Visual Voicemail, & Wi-Fi Calling. This happens with any Encrypted DNS provider, so it is not limited to NextDNS. The NextDNS app itself is *probably* not impacted by this - though using the app isn't recommended, as it is not needed, increases your attack surface, & rarely updated.
-
-
-
 # Additional recommendations
 
 * Use a privacy-respecting browser like [Firefox](https://www.mozilla.org/firefox/) with a user.js like [Arkenfox](https://github.com/arkenfox/user.js).
