@@ -190,7 +190,7 @@ You should also always allow `nextdns.io`, as this will ensure we can always acc
 
 # Connectivity Issues for Apple Devices
 
-Due to quirks with how iOS & macOS handle Encrypted DNS profiles, out of the box, you may experience issues with Captive Portals, Connecting to Public Wi-Fi Networks (Including ones on airplanes), MMS, Visual Voicemail, & Wi-Fi Calling. This happens with any Encrypted DNS provider, so it is not limited to NextDNS. The NextDNS app itself is *probably* not impacted by this - though using the app isn't recommended if you can help it, as it is not needed, increases your attack surface, & rarely updated.
+Due to quirks with how iOS & macOS handle Encrypted DNS profiles, out of the box, you may experience issues with Captive Portals, Connecting to Public Wi-Fi Networks (Including ones on airplanes), MMS, Visual Voicemail, & Wi-Fi Calling. This happens with any Encrypted DNS provider, so it is not limited to NextDNS. The NextDNS app itself is *probably* not impacted by this - though using the app isn't recommended if you can help it, as it is unnecessary, closed source, increases your attack surface, & rarely updated.
 
 Luckily, there's a simple fix to this issue.
 
