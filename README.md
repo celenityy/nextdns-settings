@@ -153,7 +153,7 @@ Note that I maintain a variety of comprehensive blocklists [here](https://badblo
 
 # Allowlist
 
-Note that I maintain a comprehensive whitelist [here](https://badblock.celenity.dev/whitelist.txt). Sadly you won't be able to add it to NextDNS, but you may skim through it and manually allow whatever you wish to.
+Note that I maintain a comprehensive whitelist [here](https://badblock.celenity.dev/wildcards-no-star/whitelist.txt). Sadly you won't be able to add it to NextDNS, but you may skim through it and manually allow whatever you wish to.
 
 Regardless, you should allow the following for updates on Fedora Linux:
 
@@ -196,7 +196,7 @@ Due to quirks with how iOS & macOS handle Encrypted DNS profiles, out of the box
 
 Luckily, there's a simple fix to this issue.
 
-When generating your NextDNS profile [here](https://apple.nextdns.io/), you want to go **More Options** -> `Excluded Domains`. 
+When generating your NextDNS profile [here](https://apple.nextdns.io/), you want to go **More Options** -> `Excluded Domains`.
 
 In this box, you'll want to copy & paste the following:
 
